@@ -12,4 +12,26 @@ export default defineNuxtConfig({
   svgo: {
     autoImportPath: "./assets/icons/",
   },
+  // i18n
+  i18n: {
+    // Module Options
+    lazy: true,
+    langDir: "locales",
+    strategy: "no_prefix",
+    defaultLocale: "vi",
+    locales: [
+      {
+        code: "en",
+        iso: "en-US",
+        name: "English",
+        file: "en.js", // Tên file dịch ngôn ngữ tiếng Anh
+      },
+      {
+        code: "vi",
+        iso: "vi-VN",
+        name: "Vietnamese",
+        file: "vn.js", // Tên file dịch ngôn ngữ tiếng Việt
+      },
+    ],
+  },
 });
