@@ -1,4 +1,9 @@
 export default {
-  hello: "hello",
-  d1: "my name is hạnh",
+  header: {
+    home: "Home",
+    projects: "projects",
+    aboutMe: "About-me",
+    vietnamese: "VN",
+    english: "EN",
+  },
 };

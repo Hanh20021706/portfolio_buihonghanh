@@ -1,22 +1,16 @@
 <template>
-  <div>
-    <h2>hello word</h2>
-    <SvgoIconLogo class="!w-[36px] !h-[36px]" />
-    {{ $t("hello") }}
-    <div class="">
-      {{ $t("d1") }}
-    </div>
-    <div class="">
-      <Languages></Languages>
-    </div>
+  <div class="">
+    <Header></Header>
   </div>
 </template>
 
 <script>
-import Languages from "./../components/Language.vue";
+import Languages from "@components/Language.vue";
+import Header from "@components/Header.vue";
 export default {
   components: {
     Languages,
+    Header,
   },
 };
 </script>
