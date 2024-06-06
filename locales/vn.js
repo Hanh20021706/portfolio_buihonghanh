@@ -1,4 +1,9 @@
 export default {
-  hello: "xin chao",
-  d1: "tôi tên là hạnh",
+  header: {
+    home: "Trang chủ",
+    projects: "Dự án",
+    aboutMe: "Về tôi",
+    vietnamese: "VN",
+    english: "EN",
+  },
 };
