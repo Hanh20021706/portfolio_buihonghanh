@@ -6,4 +6,8 @@ export default {
     vietnamese: "VN",
     english: "EN",
   },
+  banner: {
+    name: "Bùi Hồng Hạnh",
+    desc: "Tôi là một web designer và front-end developer",
+  },
 };

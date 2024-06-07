@@ -1,6 +1,9 @@
 <template>
   <div class="">
     <Header></Header>
+
+    <!-- banner -->
+    <Banner></Banner>
     <div class="">
       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur,
       accusamus quaerat delectus ea aliquam hic voluptatum repellendus quibusdam
@@ -68,10 +71,12 @@
 <script>
 import Languages from "@components/Language.vue";
 import Header from "@components/Header.vue";
+import Banner from "@components/Banner-with-text.vue";
 export default {
   components: {
     Languages,
     Header,
+    Banner,
   },
 };
 </script>

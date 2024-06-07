@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-primaryLight py-[24px] sticky top-0 left-0 right-0">
+  <div class="bg-primaryLight py-[24px] sticky top-0 left-0 right-0 z-50">
     <div class="container">
       <!-- header desktop -->
       <div class="md:flex justify-between hidden">
