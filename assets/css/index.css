@@ -5,6 +5,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap");
 body {
   font-family: "Fira Code", monospace;
+  background: #232323;
 }
 
 /* config layout */
@@ -27,4 +28,8 @@ body {
 }
 .body-1 {
   @apply text-[14px] font-normal tracking-[0.25px];
+}
+
+.pt-122 {
+  @apply pt-[122px];
 }
