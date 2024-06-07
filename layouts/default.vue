@@ -1,17 +1,14 @@
 <template>
-  <div class="">
-    <Banner></Banner>
-    <About />
-    <Skill />
+  <div>
+    <Header> </Header>
+    <slot />
   </div>
 </template>
 
 <script>
-import Languages from "@components/Language.vue";
 import Header from "@components/Header.vue";
 export default {
   components: {
-    Languages,
     Header,
   },
 };
