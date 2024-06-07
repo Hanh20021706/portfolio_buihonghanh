@@ -11,16 +11,16 @@
       <div class="lg:col-span-6"></div>
       <div class="lg:col-span-6 col-span-12">
         <div class="grid grid-cols-12 gap-[30px]">
-          <div class="col-span-6">
+          <div class="lg:col-span-6 col-span-12">
             <BaseItemSkill
               title="Languages"
               :items="listLanguage"
             ></BaseItemSkill>
           </div>
-          <div class="col-span-6">
+          <div class="lg:col-span-6 col-span-12">
             <BaseItemSkill title="Tools" :items="listTools"></BaseItemSkill>
           </div>
-          <div class="col-span-6">
+          <div class="lg:col-span-6 col-span-12">
             <BaseItemSkill
               title="Frameworks/Platfrom"
               :items="listFrameworks"
