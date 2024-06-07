@@ -7,6 +7,7 @@
     <AboutMe></AboutMe>
     <!-- skill -->
     <Skill></Skill>
+    <Projects></Projects>
   </div>
 </template>
 
