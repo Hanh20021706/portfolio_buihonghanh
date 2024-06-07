@@ -5,17 +5,29 @@
       <div class="md:flex justify-between hidden">
         <ul class="flex gap-[24px]">
           <li>
-            <NuxtLink to="/" class="text-white">
+            <NuxtLink
+              to="/"
+              class="text-neutralWhiteDark"
+              active-class="text-white"
+            >
               {{ $t("header.home") }}
             </NuxtLink>
           </li>
           <li>
-            <NuxtLink to="/" class="text-white">
+            <NuxtLink
+              to="/projects"
+              class="text-neutralWhiteDark"
+              active-class="text-white"
+            >
               {{ $t("header.projects") }}
             </NuxtLink>
           </li>
           <li>
-            <NuxtLink to="/" class="text-white">
+            <NuxtLink
+              to="/about"
+              class="text-neutralWhiteDark"
+              active-class="text-white"
+            >
               {{ $t("header.aboutMe") }}
             </NuxtLink>
           </li>
