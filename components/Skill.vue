@@ -1,6 +1,6 @@
 <template>
-  <div class="container pt-122">
-    <BaseTitleSection :title="'Skill'"></BaseTitleSection>
+  <div class="pt-122">
+    <BaseTitleSection :title="'Skill'" class="mb-[46px]"></BaseTitleSection>
     <img
       src="~assets/images/image-skill.png"
       alt=""

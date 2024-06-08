@@ -1,8 +1,9 @@
 <template>
-  <div class="">
+  <div class="container">
     <Banner></Banner>
     <About />
     <Skill />
+    <Project></Project>
   </div>
 </template>
 

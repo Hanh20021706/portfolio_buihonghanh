@@ -1,6 +1,9 @@
 <template>
-  <div class="container pt-122">
-    <BaseTitleSection :title="$t('aboutMe.title')"></BaseTitleSection>
+  <div class="pt-122">
+    <BaseTitleSection
+      :title="$t('aboutMe.title')"
+      class="mb-[46px]"
+    ></BaseTitleSection>
 
     <div class="">
       <p class="text-white pb-[28px] text-[16px] leading-loose">
