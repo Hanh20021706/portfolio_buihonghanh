@@ -19,4 +19,9 @@ export default {
     title: "Projects",
     viewAll: "View all",
   },
+  contact: {
+    title: "Contacts",
+    desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam nesciunt molestiae, unde ratione, laboriosam culpa ab rerum neque adipisci aut, amet consequatur dolor nihil quae velit dicta ad ut et.",
+    titleMess: "Message me here",
+  },
 };

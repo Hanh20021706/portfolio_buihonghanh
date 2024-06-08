@@ -4,6 +4,7 @@
     <About />
     <Skill />
     <Project></Project>
+    <Contact></Contact>
   </div>
 </template>
 
