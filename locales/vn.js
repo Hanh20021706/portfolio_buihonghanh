@@ -19,4 +19,9 @@ export default {
     title: "Dự án",
     viewAll: "Xem tất cả",
   },
+  contact: {
+    title: "Liên hệ",
+    desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam nesciunt molestiae, unde ratione, laboriosam culpa ab rerum neque adipisci aut, amet consequatur dolor nihil quae velit dicta ad ut et.",
+    titleMess: "Nhắn tin cho tôi ở đây",
+  },
 };
