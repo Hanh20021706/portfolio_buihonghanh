@@ -10,7 +10,7 @@ body {
 
 /* config layout */
 .container {
-  @apply max-w-[1146px] m-auto px-[24px] lg:px-[0];
+  @apply max-w-[1122px] m-auto px-[24px];
 }
 
 /* config text */
