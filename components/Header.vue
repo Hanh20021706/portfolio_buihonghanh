@@ -58,17 +58,32 @@
       <div v-if="isShowBar" class="bg-primaryLight mt-[36px] h-[100vh]">
         <ul class="flex flex-col gap-[24px]">
           <li>
-            <NuxtLink to="/" class="text-white">
+            <NuxtLink
+              to="/"
+              class="text-neutralWhiteDark"
+              active-class="text-white"
+              @click="handleLinkClick"
+            >
               {{ $t("header.home") }}
             </NuxtLink>
           </li>
           <li>
-            <NuxtLink to="/" class="text-white">
+            <NuxtLink
+              to="/projects"
+              class="text-neutralWhiteDark"
+              active-class="text-white"
+              @click="handleLinkClick"
+            >
               {{ $t("header.projects") }}
             </NuxtLink>
           </li>
           <li>
-            <NuxtLink to="/" class="text-white">
+            <NuxtLink
+              to="/about"
+              class="text-neutralWhiteDark"
+              active-class="text-white"
+              @click="handleLinkClick"
+            >
               {{ $t("header.aboutMe") }}
             </NuxtLink>
           </li>
@@ -93,7 +108,11 @@ export default {
       isShowBar: false,
     };
   },
-  methods: {},
+  methods: {
+    handleLinkClick() {
+      this.isShowBar = false;
+    },
+  },
 };
 </script>
 

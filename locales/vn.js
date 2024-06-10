@@ -14,10 +14,15 @@ export default {
     title: "Về tôi",
     desc: "Tôi bắt đầu công việc của mình với vai trò là Front-end Developer, tham gia các dự án thực tế và phức tạp như ERP, POS... Từ khi tốt nghiệp tôi đã có kiến ​​thức về thiết kế kết hợp với kiến ​​thức về thiết kế. Kiến thức lập trình đã giúp tôi phát triển và trở thành Nhà thiết kế website bằng việc luôn đặt trải nghiệm người dùng (UX) và giao diện người dùng (UI) lên hàng đầu.",
     buttonLink: "Xem thêm",
+    who: "Tôi là ai",
+    fun: "những điều thú vị",
   },
   projects: {
     title: "Dự án",
     viewAll: "Xem tất cả",
+    textAll: "Tất cả dự án của tôi",
+    decent: "Dự án chính",
+    small: "Dự án nhỏ",
   },
   contact: {
     title: "Liên hệ",
