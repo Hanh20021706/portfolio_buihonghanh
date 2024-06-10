@@ -15,7 +15,7 @@
               <img
                 :src="item.image"
                 alt=""
-                class="w-full relative z-10 rounded-[8px] aspect-[3/2] object-cover"
+                class="w-full relative z-10 aspect-[3/2] object-cover"
               />
               <div
                 class="absolute bottom-[-14px] top-[-14px] left-[14px] right-[14px] border-r border-b border-white"
