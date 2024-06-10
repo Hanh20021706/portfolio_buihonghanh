@@ -9,7 +9,7 @@
         <SvgoIconDown class="!text-white" />
       </div>
       <ul
-        class="absolute overflow-hidden bg-white top-full right-0 left-0 shadow-md z-[100] border border-white rounded-md"
+        class="absolute w-[56px] overflow-hidden bg-white top-full right-0 left-0 shadow-md z-[100] border border-white rounded-md"
         v-if="openLanguage"
       >
         <li
