@@ -34,13 +34,15 @@
         </ul>
         <div class="flex items-center gap-[24px]">
           <Language></Language>
-          <SvgoIconLogo class="!w-[26px] !h-[26px] !text-white" />
+          <NuxtLink to="/">
+            <SvgoIconLogo class="!w-[26px] !h-[26px] !text-white" />
+          </NuxtLink>
         </div>
       </div>
       <!-- header mobile -->
       <div class="flex bg-primaryLight md:hidden justify-between">
         <div class="">
-          <NuxtLink to="/">
+          <NuxtLink to="/" @click="handleLinkClick">
             <SvgoIconLogo class="!w-[26px] !h-[26px] !text-white" />
           </NuxtLink>
         </div>
