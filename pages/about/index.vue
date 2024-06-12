@@ -7,12 +7,12 @@
     <div class="flex flex-col-reverse md:flex-row gap-[50px] mt-[46px]">
       <div class="md:col-span-8">
         <p class="text-neutralWhiteDark leading-loose text-[16px]">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto earum
-          sint dolores totam omnis ex quam, assumenda ea minus incidunt tempore
-          repellat dicta impedit deserunt aperiam numquam cupiditate optio fuga.
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto earum
-          sint dolores totam omnis ex quam, assumenda ea minus incidunt tempore
-          repellat dicta impedit deserunt aperiam numquam cupiditate optio fuga.
+          I have background in Information Technology and 1.5. years
+          workingexperience as Frontend Developer developing website and mobile
+          applications. I am seeking a position as a Frontend Developer to
+          leverage skills to orient and develop products With my knowledge and
+          passion of UI/UX design, Ienjoy solving front-end problems and
+          creating the best user experience for users..
         </p>
       </div>
       <div class="md:col-span-4">

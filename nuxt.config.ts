@@ -2,11 +2,19 @@
 import path from "path";
 
 export default defineNuxtConfig({
+  vite: {
+    server: {
+      hmr: {
+        clientPort: 3000, // hoặc cổng bạn đang sử dụng
+      },
+    },
+  },
   modules: ["@nuxtjs/tailwindcss", "@nuxtjs/i18n", "nuxt-svgo"],
   alias: {
     "@components": path.resolve(__dirname, "./components"),
     "@assets": path.resolve(__dirname, "./assets"),
   },
+
   css: ["@/assets/css/index.css"],
   // svgo
   svgo: {
