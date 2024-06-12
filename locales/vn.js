@@ -16,6 +16,12 @@ export default {
     buttonLink: "Xem thêm",
     who: "Tôi là ai",
     fun: "những điều thú vị",
+    funItem: {
+      sport: "Tôi thích chơi cầu lông",
+      food: "Tôi thích ăn Bún chả và Bánh mỳ",
+      goOut: "Tôi thường xuyên chơi game với bạn bè của tôi",
+      film: "Tôi rất thích xem phim Thám tử lừng danh film",
+    },
   },
   projects: {
     title: "Dự án",
@@ -28,5 +34,16 @@ export default {
     title: "Liên hệ",
     desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam nesciunt molestiae, unde ratione, laboriosam culpa ab rerum neque adipisci aut, amet consequatur dolor nihil quae velit dicta ad ut et.",
     titleMess: "Nhắn tin cho tôi ở đây",
+  },
+  itemProjects: {
+    item1: {
+      nameCompany: "Battech JSC",
+      nameProject: "ERP",
+      nameLanguage: "REACT, PYTHON",
+      desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam nesciunt molestiae, unde ratione, laboriosam culpa ab rerum neque adipisci aut, amet consequatur dolor nihil quae velit dicta ad ut et.",
+      linkFigma: "",
+      linkGit: "",
+      linkDemo: "",
+    },
   },
 };

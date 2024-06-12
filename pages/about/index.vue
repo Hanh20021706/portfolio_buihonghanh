@@ -51,7 +51,7 @@
           class="border border-white py-[16px] px-[24px]"
           v-for="item in fun"
         >
-          <p class="text-white">{{ item.name }}</p>
+          <p class="text-white">{{ $t(item.name) }}</p>
         </div>
       </div>
     </div>
@@ -82,10 +82,10 @@ export default {
         { id: 4, name: "Tailwind" },
       ],
       fun: [
-        { id: 1, name: "I like playing badminton" },
-        { id: 2, name: "I like BUN CHA and BANH MY" },
-        { id: 3, name: "I often playing game with my friends" },
-        { id: 3, name: "My favorite movie is Detective Conan" },
+        { id: 1, name: "aboutMe.funItem.sport" },
+        { id: 2, name: "aboutMe.funItem.food" },
+        { id: 3, name: "aboutMe.funItem.goOut" },
+        { id: 3, name: "aboutMe.funItem.goOut" },
       ],
     };
   },

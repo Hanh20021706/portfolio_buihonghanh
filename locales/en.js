@@ -16,6 +16,12 @@ export default {
     buttonLink: "See more",
     who: "Who i am",
     fun: "fun-facts",
+    funItem: {
+      sport: "I like playing badminton",
+      food: "I like BUN CHA and BANH MY",
+      goOut: "I often playing game with my friends",
+      film: "My favorite movie is Detective Conan",
+    },
   },
   projects: {
     title: "Projects",
